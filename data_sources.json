@@ -1,0 +1,72 @@
+{
+    "openai": {
+        "is_global": "True",
+        "name": "openai",
+        "user_name": "",
+        "url": "",
+        "api_key": "",
+        "date_field": "",
+        "data_field": "",
+        "category_field": "",
+        "kpi_name_field": "",
+        "add_features_true_false": "",
+        "password": "",
+        "hostname": ""
+    },
+    "security_master": {
+        "is_global": "True",
+        "name": "financedb",
+        "user_name": "",
+        "url": "",
+        "api_key": "",
+        "date_field": "",
+        "data_field": "symbol",
+        "category_field": "",
+        "kpi_name_field": "",
+        "add_features_true_false": "False",
+        "password": "",
+        "hostname": ""
+    },
+    "fundamental": {
+        "is_global": "False",
+        "name": "insync",
+        "user_name": "",
+        "password": "",
+        "hostname": "49.248.117.35",
+        "url": "",
+        "api_key": "",
+        "date_field": "filing_date",
+        "data_field": "value_normalized",
+        "category_field": "",
+        "kpi_name_field": "title",
+        "add_features_true_false": ""
+    },
+    "prices": {
+        "is_global": "False",
+        "name": "yfinance",
+        "user_name": "",
+        "url": "",
+        "api_key": "",
+        "date_field": "price_date",
+        "data_field": "adjclose",
+        "category_field": "",
+        "kpi_name_field": "",
+        "add_features_true_false": "True",
+        "password": "",
+        "hostname": ""
+    },
+    "earnings_report_dates": {
+        "is_global": "False",
+        "name": "alphavantage",
+        "user_name": "",
+        "url": "https://www.alphavantage.co/query?function=EARNINGS",
+        "api_key": "0JJNLUHA7KK0CIM7",
+        "date_field": "rdate",
+        "data_field": "surprise_pct",
+        "category_field": "",
+        "kpi_name_field": "",
+        "add_features_true_false": "False",
+        "password": "",
+        "hostname": ""
+    }
+}
