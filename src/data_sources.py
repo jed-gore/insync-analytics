@@ -105,10 +105,13 @@ class DataSource:
         self.io = IOData(data_cache=FILE_TYPE, data_source=self.name)
 
         if self.is_global == "True":
-            func = getattr(self, self.name)
-            df = func()
-            self.save_data(df, self.name)
-            return
+            try:
+                func = getattr(self, self.name)
+                df = func()
+                self.save_data(df, self.name)
+                return
+            except:
+                return
 
         for ticker in self.focus_list:
             func = getattr(self, self.name)

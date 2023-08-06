@@ -30,9 +30,9 @@
     "fundamental": {
         "is_global": "False",
         "name": "insync",
-        "user_name": "",
+        "user_name": "Jedgore",
         "password": "",
-        "hostname": "49.248.117.35",
+        "hostname": "",
         "url": "",
         "api_key": "",
         "date_field": "filing_date",
